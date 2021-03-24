@@ -4,7 +4,8 @@ metadata:
   name: kayenta
 spec:
   ports:
-  - port: 8090
+  - name: http-kayenta
+    port: 8090
     protocol: TCP
     targetPort: 8090
   type: ClusterIP

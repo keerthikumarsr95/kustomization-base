@@ -4,7 +4,8 @@ metadata:
   name: clouddriver
 spec:
   ports:
-  - port: 7002
+  - name: http-clouddriver
+    port: 7002
     protocol: TCP
     targetPort: 7002
   selector:

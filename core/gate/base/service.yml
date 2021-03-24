@@ -4,7 +4,8 @@ metadata:
   name: gate
 spec:
   ports:
-  - port: 8084
+  - name: http-gate
+    port: 8084
     protocol: TCP
     targetPort: 8084
   type: ClusterIP

@@ -4,7 +4,8 @@ metadata:
   name: front50
 spec:
   ports:
-  - port: 8080
+  - name: http-font50
+    port: 8080
     protocol: TCP
     targetPort: 8080
   type: ClusterIP

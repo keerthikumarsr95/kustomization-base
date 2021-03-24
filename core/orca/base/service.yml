@@ -4,7 +4,8 @@ metadata:
   name: orca
 spec:
   ports:
-  - port: 8083
+  - name: http-orca
+    port: 8083
     protocol: TCP
     targetPort: 8083
   type: ClusterIP

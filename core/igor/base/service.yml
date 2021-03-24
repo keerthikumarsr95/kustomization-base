@@ -4,7 +4,8 @@ metadata:
   name: igor
 spec:
   ports:
-  - port: 8088
+  - name: http-igor
+    port: 8088
     protocol: TCP
     targetPort: 8088
   type: ClusterIP

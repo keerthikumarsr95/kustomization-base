@@ -4,7 +4,8 @@ metadata:
   name: echo
 spec:
   ports:
-  - port: 8089
+  - name: http-echo
+    port: 8089
     protocol: TCP
     targetPort: 8089
   type: ClusterIP
