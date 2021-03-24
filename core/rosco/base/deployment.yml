@@ -29,8 +29,7 @@ spec:
           name: spinnaker-secrets-volume
         securityContext:
           allowPrivilegeEscalation: false
-      imagePullSecrets:
-      - name: harbor-bot          
+          
       terminationGracePeriodSeconds: 720
       volumes:
       - name: rosco-config-volume

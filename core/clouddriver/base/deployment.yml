@@ -25,7 +25,7 @@ spec:
         resources:
           requests:
             cpu: 800m
-            memory: 1200Mi
+            memory: 1Gi
         volumeMounts:
         - mountPath: /opt/spinnaker/config
           name: clouddriver-config-volume
@@ -33,8 +33,7 @@ spec:
           name: spinnaker-secrets-volume
         securityContext:
           allowPrivilegeEscalation: false
-      imagePullSecrets:
-      - name: harbor-bot
+
       terminationGracePeriodSeconds: 720
       volumes:
       - name: clouddriver-config-volume

@@ -31,8 +31,7 @@ spec:
           name: spinnaker-secrets-volume
         securityContext:
           allowPrivilegeEscalation: false
-      imagePullSecrets:
-      - name: harbor-bot
+
       volumes:
       - name: deck-config-volume
         secret:
