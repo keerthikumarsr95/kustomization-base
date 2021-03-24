@@ -28,7 +28,7 @@ spec:
         resources:
           requests:
             memory: 1Gi
-            cpu: 500m
+            cpu: 100m
         volumeMounts:
         - mountPath: /opt/spinnaker/config
           name: gate-config-volume

@@ -24,7 +24,7 @@ spec:
             path: /health
         resources:
           requests:
-            cpu: 800m
+            cpu: 100m
             memory: 1Gi
         volumeMounts:
         - mountPath: /opt/spinnaker/config
