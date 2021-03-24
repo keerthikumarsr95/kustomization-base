@@ -29,6 +29,8 @@ spec:
           name: spinnaker-secrets-volume
         securityContext:
           allowPrivilegeEscalation: false
+      imagePullSecrets:
+      - name: harbor-bot          
       terminationGracePeriodSeconds: 720
       volumes:
       - name: orca-config-volume
